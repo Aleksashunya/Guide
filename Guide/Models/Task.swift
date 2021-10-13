@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import SwiftUI
 
 struct Task: Identifiable {
     var name: String
@@ -15,15 +14,4 @@ struct Task: Identifiable {
     var responsibleID: Int
     var clientID: Int
     var id: Int
-}
-
-func colorOfEvent(condition: EventCondition) -> Color {
-    var color: Color = .red
-    
-    if condition == .done {
-        color = .green
-    } else if condition == .during {
-        color = .yellow
-    }
-    return color
 }

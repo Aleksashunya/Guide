@@ -31,14 +31,15 @@ struct MainScreen: View {
                     }
                 }
             }
-            .tabItem {
-                Image(systemName: "calendar")
-                Text("Календарь")
-            }
+                                 .tabItem {
+                                     Image(systemName: "calendar")
+                                     Text("Календарь")
+                                 }
             
             AddScreen()
                 .tabItem {
                     Image(systemName: "plus.circle")
+                    Text("Добавить")
                 }
             
             ClientsScreen()
@@ -50,7 +51,6 @@ struct MainScreen: View {
             SettingsScreen(logIn: $logIn)
                 .tabItem {
                     Image(systemName: "gearshape.fill")
-                        .resizable()
                     Text("Настройки")
                 }
         }

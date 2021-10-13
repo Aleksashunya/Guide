@@ -57,8 +57,9 @@
 		7A5F1B28270C5A2800992E07 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B27270C5A2800992E07 /* UserViewModel.swift */; };
 		7A5F1B2A270C5A4300992E07 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B29270C5A4300992E07 /* UserRepository.swift */; };
 		7A5F1B30270C5AF500992E07 /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B2F270C5AF500992E07 /* UserDataManager.swift */; };
-		7ACEBFCC2714092D000BFF52 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEBFCB2714092D000BFF52 /* File.swift */; };
 		7ACEC00D27171D42000BFF52 /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEC00C27171D42000BFF52 /* Screens.swift */; };
+		7ACEC01227172508000BFF52 /* TotalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEC01127172508000BFF52 /* TotalFunctions.swift */; };
+		7ACEC01427172590000BFF52 /* ColorOfEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEC01327172590000BFF52 /* ColorOfEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,8 +133,9 @@
 		7A5F1B27270C5A2800992E07 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		7A5F1B29270C5A4300992E07 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		7A5F1B2F270C5AF500992E07 /* UserDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
-		7ACEBFCB2714092D000BFF52 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		7ACEC00C27171D42000BFF52 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		7ACEC01127172508000BFF52 /* TotalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalFunctions.swift; sourceTree = "<group>"; };
+		7ACEC01327172590000BFF52 /* ColorOfEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOfEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 		7A5F1A95270C366F00992E07 /* Guide */ = {
 			isa = PBXGroup;
 			children = (
+				7ACEC010271724E7000BFF52 /* Functions */,
 				7ACEC00B27171D30000BFF52 /* Data */,
 				7A5F1B1C270C596400992E07 /* UniversalViews */,
 				7A5F1AD1270C552700992E07 /* Services */,
@@ -369,7 +372,6 @@
 			children = (
 				7A5F1B1D270C597500992E07 /* ShortInfoView.swift */,
 				7A5F1B1F270C598900992E07 /* ChangeDataScreen.swift */,
-				7ACEBFCB2714092D000BFF52 /* File.swift */,
 			);
 			path = UniversalViews;
 			sourceTree = "<group>";
@@ -380,6 +382,15 @@
 				7ACEC00C27171D42000BFF52 /* Screens.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		7ACEC010271724E7000BFF52 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				7ACEC01127172508000BFF52 /* TotalFunctions.swift */,
+				7ACEC01327172590000BFF52 /* ColorOfEvent.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -531,6 +542,7 @@
 				7A5F1AFD270C57BB00992E07 /* AddScreen.swift in Sources */,
 				7A5F1AC9270C372200992E07 /* Client.swift in Sources */,
 				7A5F1B19270C590D00992E07 /* ClientsScreen.swift in Sources */,
+				7ACEC01427172590000BFF52 /* ColorOfEvent.swift in Sources */,
 				7A5F1A99270C366F00992E07 /* ContentViewOld.swift in Sources */,
 				7A5F1AD0270C550600992E07 /* ContentView.swift in Sources */,
 				7A5F1B1E270C597500992E07 /* ShortInfoView.swift in Sources */,
@@ -541,7 +553,6 @@
 				7A5F1ADF270C562A00992E07 /* MainScreen.swift in Sources */,
 				7A5F1B0B270C587200992E07 /* SettingsExitButtonView.swift in Sources */,
 				7A5F1B02270C57F100992E07 /* AddNewClientScreen.swift in Sources */,
-				7ACEBFCC2714092D000BFF52 /* File.swift in Sources */,
 				7A5F1B20270C598900992E07 /* ChangeDataScreen.swift in Sources */,
 				7A5F1AD6270C558900992E07 /* LoginScreen.swift in Sources */,
 				7A5F1B1B270C592200992E07 /* ClientsListView.swift in Sources */,
@@ -550,6 +561,7 @@
 				7A5F1AE2270C565A00992E07 /* RegistrationScreen.swift in Sources */,
 				7A5F1AFA270C579100992E07 /* EventInfoScreen.swift in Sources */,
 				7A5F1A97270C366F00992E07 /* GuideApp.swift in Sources */,
+				7ACEC01227172508000BFF52 /* TotalFunctions.swift in Sources */,
 				7A5F1B16270C58EE00992E07 /* ClientEventsScreen.swift in Sources */,
 				7A5F1AFF270C57CF00992E07 /* AddNewButtonView.swift in Sources */,
 				7A5F1B2A270C5A4300992E07 /* UserRepository.swift in Sources */,
