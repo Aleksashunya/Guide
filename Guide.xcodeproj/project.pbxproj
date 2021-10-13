@@ -58,6 +58,7 @@
 		7A5F1B2A270C5A4300992E07 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B29270C5A4300992E07 /* UserRepository.swift */; };
 		7A5F1B30270C5AF500992E07 /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B2F270C5AF500992E07 /* UserDataManager.swift */; };
 		7ACEBFCC2714092D000BFF52 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEBFCB2714092D000BFF52 /* File.swift */; };
+		7ACEC00D27171D42000BFF52 /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEC00C27171D42000BFF52 /* Screens.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,7 @@
 		7A5F1B29270C5A4300992E07 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		7A5F1B2F270C5AF500992E07 /* UserDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
 		7ACEBFCB2714092D000BFF52 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		7ACEC00C27171D42000BFF52 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		7A5F1A95270C366F00992E07 /* Guide */ = {
 			isa = PBXGroup;
 			children = (
+				7ACEC00B27171D30000BFF52 /* Data */,
 				7A5F1B1C270C596400992E07 /* UniversalViews */,
 				7A5F1AD1270C552700992E07 /* Services */,
 				7A5F1AC5270C36BF00992E07 /* Models */,
@@ -238,17 +241,18 @@
 		7A5F1ACE270C53B700992E07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7A5F1ACF270C550600992E07 /* ContentView.swift */,
+				7A5F1ADE270C562A00992E07 /* MainScreen.swift */,
+				7A5F1ADD270C561500992E07 /* MailScreenViews */,
+				7A5F1AD4270C557300992E07 /* LoginScreenViews */,
+				7A5F1AE0270C564800992E07 /* RegistrationScreenViews */,
+				7A5F1AED270C56F900992E07 /* TotalInfoScreenViews */,
+				7A5F1AF6270C576B00992E07 /* EventsCalendarScreenViews */,
+				7A5F1AFB270C57A900992E07 /* AddScreenViews */,
+				7A5F1B00270C57E000992E07 /* AddNewScreens */,
 				7A5F1B17270C58FF00992E07 /* ClientsScreenViews */,
 				7A5F1B10270C58B000992E07 /* ClientInfoScreenViews */,
 				7A5F1B07270C584600992E07 /* SettingsScreenViews */,
-				7A5F1B00270C57E000992E07 /* AddNewScreens */,
-				7A5F1AFB270C57A900992E07 /* AddScreenViews */,
-				7A5F1AF6270C576B00992E07 /* EventsCalendarScreenViews */,
-				7A5F1AED270C56F900992E07 /* TotalInfoScreenViews */,
-				7A5F1AE0270C564800992E07 /* RegistrationScreenViews */,
-				7A5F1ADD270C561500992E07 /* MailScreenViews */,
-				7A5F1AD4270C557300992E07 /* LoginScreenViews */,
-				7A5F1ACF270C550600992E07 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -276,7 +280,6 @@
 		7A5F1ADD270C561500992E07 /* MailScreenViews */ = {
 			isa = PBXGroup;
 			children = (
-				7A5F1ADE270C562A00992E07 /* MainScreen.swift */,
 			);
 			path = MailScreenViews;
 			sourceTree = "<group>";
@@ -369,6 +372,14 @@
 				7ACEBFCB2714092D000BFF52 /* File.swift */,
 			);
 			path = UniversalViews;
+			sourceTree = "<group>";
+		};
+		7ACEC00B27171D30000BFF52 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7ACEC00C27171D42000BFF52 /* Screens.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -543,6 +554,7 @@
 				7A5F1AFF270C57CF00992E07 /* AddNewButtonView.swift in Sources */,
 				7A5F1B2A270C5A4300992E07 /* UserRepository.swift in Sources */,
 				7A5F1B14270C58D800992E07 /* ClientInfoRowView.swift in Sources */,
+				7ACEC00D27171D42000BFF52 /* Screens.swift in Sources */,
 				7A5F1B04270C580E00992E07 /* AddNewTaskScreen.swift in Sources */,
 				7A5F1AE4270C567100992E07 /* RegistrationUserView.swift in Sources */,
 				7A5F1AF5270C575300992E07 /* TotalInfoTaskListRowView.swift in Sources */,
@@ -713,6 +725,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -743,6 +756,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

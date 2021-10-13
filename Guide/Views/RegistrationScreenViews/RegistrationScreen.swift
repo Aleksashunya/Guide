@@ -15,7 +15,7 @@ struct RegistrationScreen: View {
     @State private var userPassword = ""
     @State private var userEmail = ""
     
-    @Binding var screen: Int
+    @Binding var screen: Screens
     @Binding var logIn: Bool
     
     var body: some View {
@@ -57,7 +57,7 @@ struct RegistrationScreen: View {
 
 struct RegistrationScreen_Previews: PreviewProvider {
     static var previews: some View {
-        RegistrationScreen(screen: .constant(2), logIn: .constant(false))
+        RegistrationScreen(screen: .constant(.registrationScreen), logIn: .constant(false))
     }
 }
 

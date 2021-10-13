@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RegistrationNextButtonView: View {
     @Binding var logIn: Bool
-    @Binding var screen: Int
+    @Binding var screen: Screens
     
     @Binding var userName: String
     @Binding var userLastName: String
@@ -41,7 +41,7 @@ struct RegistrationNextButtonView: View {
 struct RegistrationNextButtonView_Previews: PreviewProvider {
     static var previews: some View {
         RegistrationNextButtonView(logIn: .constant(false),
-                                   screen: .constant(1),
+                                   screen: .constant(.loginScreen),
                                    userName: .constant(""),
                                    userLastName: .constant(""),
                                    userMobile: .constant(""),
@@ -56,7 +56,7 @@ extension RegistrationNextButtonView {
         if userName != "" && userLastName != "" && userMobile != "" && userEmail != "" && userLogin != "" && userPassword != "" {
             saveNewUser()
             logIn = true
-            screen = 1
+            screen = .loginScreen
         } else {
             showAlert = true
         }

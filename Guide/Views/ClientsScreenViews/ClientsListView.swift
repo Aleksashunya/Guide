@@ -12,9 +12,7 @@ struct ClientsListView: View {
     @StateObject private var userViewModel = UserViewModel()
     
     var body: some View {
-        if userViewModel.clients == [] {
-            Text("Здесь появятся данные о Ваших клиентах")
-        } else {
+
         List(userViewModel.clients ?? []) {client in
             
             NavigationLink(
@@ -29,7 +27,7 @@ struct ClientsListView: View {
         .onAppear(perform: {
             userViewModel.onAppear()
         })
-        }
+
     }
 }
 

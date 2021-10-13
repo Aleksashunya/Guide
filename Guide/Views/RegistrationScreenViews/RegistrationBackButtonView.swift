@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct RegistrationBackButtonView: View {
-    @Binding var screen: Int
+    @Binding var screen: Screens
     
     var body: some View {
         Button(action: {
-            screen = 1
+            screen = .loginScreen
         }, label: {
             Text("Отмена")
         })
@@ -22,6 +22,6 @@ struct RegistrationBackButtonView: View {
 
 struct RegistrationBackButton_Previews: PreviewProvider {
     static var previews: some View {
-        RegistrationBackButtonView(screen: .constant(1))
+        RegistrationBackButtonView(screen: .constant(.loginScreen))
     }
 }

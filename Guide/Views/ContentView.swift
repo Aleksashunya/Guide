@@ -9,17 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var logIn = DataManager.shared.loadLoginStatus()
-    @State private var screen = 1
+    @State private var screen: Screens = .loginScreen
     
     var body: some View {
-        if logIn == false && screen == 1 {
+        if logIn == false && screen == .loginScreen {
             LoginScreen(logIn: $logIn,
                         screen: $screen)
             
-        } else if logIn == true && screen == 1 {
+        } else if logIn == true && screen == .loginScreen {
             MainScreen(logIn: $logIn)
             
-        } else if screen == 2 {
+        } else if screen == .registrationScreen {
             RegistrationScreen(screen: $screen,
                                logIn: $logIn)
         }
