@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A5F1A97270C366F00992E07 /* GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1A96270C366F00992E07 /* GuideApp.swift */; };
-		7A5F1A99270C366F00992E07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1A98270C366F00992E07 /* ContentView.swift */; };
+		7A5F1A99270C366F00992E07 /* ContentViewOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1A98270C366F00992E07 /* ContentViewOld.swift */; };
 		7A5F1A9B270C367200992E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5F1A9A270C367200992E07 /* Assets.xcassets */; };
 		7A5F1A9E270C367200992E07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5F1A9D270C367200992E07 /* Preview Assets.xcassets */; };
 		7A5F1AA0270C367200992E07 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1A9F270C367200992E07 /* Persistence.swift */; };
@@ -16,6 +16,48 @@
 		7A5F1AAD270C367200992E07 /* GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AAC270C367200992E07 /* GuideTests.swift */; };
 		7A5F1AB7270C367200992E07 /* GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AB6270C367200992E07 /* GuideUITests.swift */; };
 		7A5F1AB9270C367200992E07 /* GuideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AB8270C367200992E07 /* GuideUITestsLaunchTests.swift */; };
+		7A5F1AC9270C372200992E07 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AC8270C372200992E07 /* Client.swift */; };
+		7A5F1ACB270C52C000992E07 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1ACA270C52C000992E07 /* Event.swift */; };
+		7A5F1ACD270C532E00992E07 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1ACC270C532E00992E07 /* Task.swift */; };
+		7A5F1AD0270C550600992E07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1ACF270C550600992E07 /* ContentView.swift */; };
+		7A5F1AD3270C554800992E07 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AD2270C554800992E07 /* DataManager.swift */; };
+		7A5F1AD6270C558900992E07 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AD5270C558900992E07 /* LoginScreen.swift */; };
+		7A5F1AD8270C55AE00992E07 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AD7270C55AE00992E07 /* LoginButtonView.swift */; };
+		7A5F1ADA270C55C800992E07 /* LoginSecondButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AD9270C55C800992E07 /* LoginSecondButtonView.swift */; };
+		7A5F1ADC270C55E600992E07 /* LoginTFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1ADB270C55E600992E07 /* LoginTFView.swift */; };
+		7A5F1ADF270C562A00992E07 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1ADE270C562A00992E07 /* MainScreen.swift */; };
+		7A5F1AE2270C565A00992E07 /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AE1270C565A00992E07 /* RegistrationScreen.swift */; };
+		7A5F1AE4270C567100992E07 /* RegistrationUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AE3270C567100992E07 /* RegistrationUserView.swift */; };
+		7A5F1AE6270C568700992E07 /* RegistrationTFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AE5270C568700992E07 /* RegistrationTFView.swift */; };
+		7A5F1AEA270C56B200992E07 /* RegistrationBackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AE9270C56B200992E07 /* RegistrationBackButtonView.swift */; };
+		7A5F1AEC270C56C900992E07 /* RegistrationNextButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AEB270C56C900992E07 /* RegistrationNextButtonView.swift */; };
+		7A5F1AEF270C570E00992E07 /* TotalInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AEE270C570D00992E07 /* TotalInfoScreen.swift */; };
+		7A5F1AF1270C572500992E07 /* TotalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AF0270C572500992E07 /* TotalInfoView.swift */; };
+		7A5F1AF3270C573C00992E07 /* TotalInfoTaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AF2270C573C00992E07 /* TotalInfoTaskListView.swift */; };
+		7A5F1AF5270C575300992E07 /* TotalInfoTaskListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AF4270C575300992E07 /* TotalInfoTaskListRowView.swift */; };
+		7A5F1AF8270C577D00992E07 /* EventsCalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AF7270C577D00992E07 /* EventsCalendarScreen.swift */; };
+		7A5F1AFA270C579100992E07 /* EventInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AF9270C579100992E07 /* EventInfoScreen.swift */; };
+		7A5F1AFD270C57BB00992E07 /* AddScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AFC270C57BB00992E07 /* AddScreen.swift */; };
+		7A5F1AFF270C57CF00992E07 /* AddNewButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1AFE270C57CF00992E07 /* AddNewButtonView.swift */; };
+		7A5F1B02270C57F100992E07 /* AddNewClientScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B01270C57F100992E07 /* AddNewClientScreen.swift */; };
+		7A5F1B04270C580E00992E07 /* AddNewTaskScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B03270C580E00992E07 /* AddNewTaskScreen.swift */; };
+		7A5F1B06270C582700992E07 /* AddNewEventScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B05270C582700992E07 /* AddNewEventScreen.swift */; };
+		7A5F1B09270C585A00992E07 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B08270C585A00992E07 /* SettingsScreen.swift */; };
+		7A5F1B0B270C587200992E07 /* SettingsExitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B0A270C587200992E07 /* SettingsExitButtonView.swift */; };
+		7A5F1B0F270C589E00992E07 /* SettingsUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B0E270C589E00992E07 /* SettingsUserView.swift */; };
+		7A5F1B12270C58C300992E07 /* ClientInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B11270C58C300992E07 /* ClientInfoScreen.swift */; };
+		7A5F1B14270C58D800992E07 /* ClientInfoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B13270C58D800992E07 /* ClientInfoRowView.swift */; };
+		7A5F1B16270C58EE00992E07 /* ClientEventsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B15270C58EE00992E07 /* ClientEventsScreen.swift */; };
+		7A5F1B19270C590D00992E07 /* ClientsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B18270C590D00992E07 /* ClientsScreen.swift */; };
+		7A5F1B1B270C592200992E07 /* ClientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B1A270C592200992E07 /* ClientsListView.swift */; };
+		7A5F1B1E270C597500992E07 /* ShortInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B1D270C597500992E07 /* ShortInfoView.swift */; };
+		7A5F1B20270C598900992E07 /* ChangeDataScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B1F270C598900992E07 /* ChangeDataScreen.swift */; };
+		7A5F1B22270C59CB00992E07 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B21270C59CB00992E07 /* User.swift */; };
+		7A5F1B26270C5A1400992E07 /* ConstantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B25270C5A1400992E07 /* ConstantData.swift */; };
+		7A5F1B28270C5A2800992E07 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B27270C5A2800992E07 /* UserViewModel.swift */; };
+		7A5F1B2A270C5A4300992E07 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B29270C5A4300992E07 /* UserRepository.swift */; };
+		7A5F1B30270C5AF500992E07 /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B2F270C5AF500992E07 /* UserDataManager.swift */; };
+		7ACEBFCC2714092D000BFF52 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEBFCB2714092D000BFF52 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +80,7 @@
 /* Begin PBXFileReference section */
 		7A5F1A93270C366F00992E07 /* Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5F1A96270C366F00992E07 /* GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideApp.swift; sourceTree = "<group>"; };
-		7A5F1A98270C366F00992E07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A5F1A98270C366F00992E07 /* ContentViewOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewOld.swift; sourceTree = "<group>"; };
 		7A5F1A9A270C367200992E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A5F1A9D270C367200992E07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A5F1A9F270C367200992E07 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +90,48 @@
 		7A5F1AB2270C367200992E07 /* GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5F1AB6270C367200992E07 /* GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideUITests.swift; sourceTree = "<group>"; };
 		7A5F1AB8270C367200992E07 /* GuideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A5F1AC8270C372200992E07 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		7A5F1ACA270C52C000992E07 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		7A5F1ACC270C532E00992E07 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		7A5F1ACF270C550600992E07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A5F1AD2270C554800992E07 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		7A5F1AD5270C558900992E07 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		7A5F1AD7270C55AE00992E07 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		7A5F1AD9270C55C800992E07 /* LoginSecondButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSecondButtonView.swift; sourceTree = "<group>"; };
+		7A5F1ADB270C55E600992E07 /* LoginTFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTFView.swift; sourceTree = "<group>"; };
+		7A5F1ADE270C562A00992E07 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		7A5F1AE1270C565A00992E07 /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
+		7A5F1AE3270C567100992E07 /* RegistrationUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationUserView.swift; sourceTree = "<group>"; };
+		7A5F1AE5270C568700992E07 /* RegistrationTFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTFView.swift; sourceTree = "<group>"; };
+		7A5F1AE9270C56B200992E07 /* RegistrationBackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationBackButtonView.swift; sourceTree = "<group>"; };
+		7A5F1AEB270C56C900992E07 /* RegistrationNextButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationNextButtonView.swift; sourceTree = "<group>"; };
+		7A5F1AEE270C570D00992E07 /* TotalInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalInfoScreen.swift; sourceTree = "<group>"; };
+		7A5F1AF0270C572500992E07 /* TotalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalInfoView.swift; sourceTree = "<group>"; };
+		7A5F1AF2270C573C00992E07 /* TotalInfoTaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalInfoTaskListView.swift; sourceTree = "<group>"; };
+		7A5F1AF4270C575300992E07 /* TotalInfoTaskListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalInfoTaskListRowView.swift; sourceTree = "<group>"; };
+		7A5F1AF7270C577D00992E07 /* EventsCalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCalendarScreen.swift; sourceTree = "<group>"; };
+		7A5F1AF9270C579100992E07 /* EventInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoScreen.swift; sourceTree = "<group>"; };
+		7A5F1AFC270C57BB00992E07 /* AddScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScreen.swift; sourceTree = "<group>"; };
+		7A5F1AFE270C57CF00992E07 /* AddNewButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewButtonView.swift; sourceTree = "<group>"; };
+		7A5F1B01270C57F100992E07 /* AddNewClientScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewClientScreen.swift; sourceTree = "<group>"; };
+		7A5F1B03270C580E00992E07 /* AddNewTaskScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTaskScreen.swift; sourceTree = "<group>"; };
+		7A5F1B05270C582700992E07 /* AddNewEventScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewEventScreen.swift; sourceTree = "<group>"; };
+		7A5F1B08270C585A00992E07 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		7A5F1B0A270C587200992E07 /* SettingsExitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsExitButtonView.swift; sourceTree = "<group>"; };
+		7A5F1B0E270C589E00992E07 /* SettingsUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUserView.swift; sourceTree = "<group>"; };
+		7A5F1B11270C58C300992E07 /* ClientInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfoScreen.swift; sourceTree = "<group>"; };
+		7A5F1B13270C58D800992E07 /* ClientInfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfoRowView.swift; sourceTree = "<group>"; };
+		7A5F1B15270C58EE00992E07 /* ClientEventsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientEventsScreen.swift; sourceTree = "<group>"; };
+		7A5F1B18270C590D00992E07 /* ClientsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsScreen.swift; sourceTree = "<group>"; };
+		7A5F1B1A270C592200992E07 /* ClientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsListView.swift; sourceTree = "<group>"; };
+		7A5F1B1D270C597500992E07 /* ShortInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortInfoView.swift; sourceTree = "<group>"; };
+		7A5F1B1F270C598900992E07 /* ChangeDataScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDataScreen.swift; sourceTree = "<group>"; };
+		7A5F1B21270C59CB00992E07 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7A5F1B25270C5A1400992E07 /* ConstantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantData.swift; sourceTree = "<group>"; };
+		7A5F1B27270C5A2800992E07 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		7A5F1B29270C5A4300992E07 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		7A5F1B2F270C5AF500992E07 /* UserDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
+		7ACEBFCB2714092D000BFF52 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +182,12 @@
 		7A5F1A95270C366F00992E07 /* Guide */ = {
 			isa = PBXGroup;
 			children = (
+				7A5F1B1C270C596400992E07 /* UniversalViews */,
+				7A5F1AD1270C552700992E07 /* Services */,
+				7A5F1AC5270C36BF00992E07 /* Models */,
+				7A5F1ACE270C53B700992E07 /* Views */,
 				7A5F1A96270C366F00992E07 /* GuideApp.swift */,
-				7A5F1A98270C366F00992E07 /* ContentView.swift */,
+				7A5F1A98270C366F00992E07 /* ContentViewOld.swift */,
 				7A5F1A9A270C367200992E07 /* Assets.xcassets */,
 				7A5F1A9F270C367200992E07 /* Persistence.swift */,
 				7A5F1AA1270C367200992E07 /* Guide.xcdatamodeld */,
@@ -131,6 +219,156 @@
 				7A5F1AB8270C367200992E07 /* GuideUITestsLaunchTests.swift */,
 			);
 			path = GuideUITests;
+			sourceTree = "<group>";
+		};
+		7A5F1AC5270C36BF00992E07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1B21270C59CB00992E07 /* User.swift */,
+				7A5F1AC8270C372200992E07 /* Client.swift */,
+				7A5F1ACA270C52C000992E07 /* Event.swift */,
+				7A5F1ACC270C532E00992E07 /* Task.swift */,
+				7A5F1B25270C5A1400992E07 /* ConstantData.swift */,
+				7A5F1B27270C5A2800992E07 /* UserViewModel.swift */,
+				7A5F1B29270C5A4300992E07 /* UserRepository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A5F1ACE270C53B700992E07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1B17270C58FF00992E07 /* ClientsScreenViews */,
+				7A5F1B10270C58B000992E07 /* ClientInfoScreenViews */,
+				7A5F1B07270C584600992E07 /* SettingsScreenViews */,
+				7A5F1B00270C57E000992E07 /* AddNewScreens */,
+				7A5F1AFB270C57A900992E07 /* AddScreenViews */,
+				7A5F1AF6270C576B00992E07 /* EventsCalendarScreenViews */,
+				7A5F1AED270C56F900992E07 /* TotalInfoScreenViews */,
+				7A5F1AE0270C564800992E07 /* RegistrationScreenViews */,
+				7A5F1ADD270C561500992E07 /* MailScreenViews */,
+				7A5F1AD4270C557300992E07 /* LoginScreenViews */,
+				7A5F1ACF270C550600992E07 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A5F1AD1270C552700992E07 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1AD2270C554800992E07 /* DataManager.swift */,
+				7A5F1B2F270C5AF500992E07 /* UserDataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7A5F1AD4270C557300992E07 /* LoginScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1AD5270C558900992E07 /* LoginScreen.swift */,
+				7A5F1AD7270C55AE00992E07 /* LoginButtonView.swift */,
+				7A5F1AD9270C55C800992E07 /* LoginSecondButtonView.swift */,
+				7A5F1ADB270C55E600992E07 /* LoginTFView.swift */,
+			);
+			path = LoginScreenViews;
+			sourceTree = "<group>";
+		};
+		7A5F1ADD270C561500992E07 /* MailScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1ADE270C562A00992E07 /* MainScreen.swift */,
+			);
+			path = MailScreenViews;
+			sourceTree = "<group>";
+		};
+		7A5F1AE0270C564800992E07 /* RegistrationScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1AE1270C565A00992E07 /* RegistrationScreen.swift */,
+				7A5F1AE3270C567100992E07 /* RegistrationUserView.swift */,
+				7A5F1AE5270C568700992E07 /* RegistrationTFView.swift */,
+				7A5F1AE9270C56B200992E07 /* RegistrationBackButtonView.swift */,
+				7A5F1AEB270C56C900992E07 /* RegistrationNextButtonView.swift */,
+			);
+			path = RegistrationScreenViews;
+			sourceTree = "<group>";
+		};
+		7A5F1AED270C56F900992E07 /* TotalInfoScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1AEE270C570D00992E07 /* TotalInfoScreen.swift */,
+				7A5F1AF0270C572500992E07 /* TotalInfoView.swift */,
+				7A5F1AF2270C573C00992E07 /* TotalInfoTaskListView.swift */,
+				7A5F1AF4270C575300992E07 /* TotalInfoTaskListRowView.swift */,
+			);
+			path = TotalInfoScreenViews;
+			sourceTree = "<group>";
+		};
+		7A5F1AF6270C576B00992E07 /* EventsCalendarScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1AF7270C577D00992E07 /* EventsCalendarScreen.swift */,
+				7A5F1AF9270C579100992E07 /* EventInfoScreen.swift */,
+			);
+			path = EventsCalendarScreenViews;
+			sourceTree = "<group>";
+		};
+		7A5F1AFB270C57A900992E07 /* AddScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1AFC270C57BB00992E07 /* AddScreen.swift */,
+				7A5F1AFE270C57CF00992E07 /* AddNewButtonView.swift */,
+			);
+			path = AddScreenViews;
+			sourceTree = "<group>";
+		};
+		7A5F1B00270C57E000992E07 /* AddNewScreens */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1B01270C57F100992E07 /* AddNewClientScreen.swift */,
+				7A5F1B03270C580E00992E07 /* AddNewTaskScreen.swift */,
+				7A5F1B05270C582700992E07 /* AddNewEventScreen.swift */,
+			);
+			path = AddNewScreens;
+			sourceTree = "<group>";
+		};
+		7A5F1B07270C584600992E07 /* SettingsScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1B08270C585A00992E07 /* SettingsScreen.swift */,
+				7A5F1B0A270C587200992E07 /* SettingsExitButtonView.swift */,
+				7A5F1B0E270C589E00992E07 /* SettingsUserView.swift */,
+			);
+			path = SettingsScreenViews;
+			sourceTree = "<group>";
+		};
+		7A5F1B10270C58B000992E07 /* ClientInfoScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1B11270C58C300992E07 /* ClientInfoScreen.swift */,
+				7A5F1B13270C58D800992E07 /* ClientInfoRowView.swift */,
+				7A5F1B15270C58EE00992E07 /* ClientEventsScreen.swift */,
+			);
+			path = ClientInfoScreenViews;
+			sourceTree = "<group>";
+		};
+		7A5F1B17270C58FF00992E07 /* ClientsScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1B18270C590D00992E07 /* ClientsScreen.swift */,
+				7A5F1B1A270C592200992E07 /* ClientsListView.swift */,
+			);
+			path = ClientsScreenViews;
+			sourceTree = "<group>";
+		};
+		7A5F1B1C270C596400992E07 /* UniversalViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F1B1D270C597500992E07 /* ShortInfoView.swift */,
+				7A5F1B1F270C598900992E07 /* ChangeDataScreen.swift */,
+				7ACEBFCB2714092D000BFF52 /* File.swift */,
+			);
+			path = UniversalViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +501,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5F1AEF270C570E00992E07 /* TotalInfoScreen.swift in Sources */,
+				7A5F1B30270C5AF500992E07 /* UserDataManager.swift in Sources */,
+				7A5F1ACD270C532E00992E07 /* Task.swift in Sources */,
+				7A5F1AD3270C554800992E07 /* DataManager.swift in Sources */,
+				7A5F1ADA270C55C800992E07 /* LoginSecondButtonView.swift in Sources */,
 				7A5F1AA3270C367200992E07 /* Guide.xcdatamodeld in Sources */,
+				7A5F1ADC270C55E600992E07 /* LoginTFView.swift in Sources */,
 				7A5F1AA0270C367200992E07 /* Persistence.swift in Sources */,
-				7A5F1A99270C366F00992E07 /* ContentView.swift in Sources */,
+				7A5F1B22270C59CB00992E07 /* User.swift in Sources */,
+				7A5F1B0F270C589E00992E07 /* SettingsUserView.swift in Sources */,
+				7A5F1B09270C585A00992E07 /* SettingsScreen.swift in Sources */,
+				7A5F1B06270C582700992E07 /* AddNewEventScreen.swift in Sources */,
+				7A5F1AD8270C55AE00992E07 /* LoginButtonView.swift in Sources */,
+				7A5F1AF3270C573C00992E07 /* TotalInfoTaskListView.swift in Sources */,
+				7A5F1AEC270C56C900992E07 /* RegistrationNextButtonView.swift in Sources */,
+				7A5F1AF1270C572500992E07 /* TotalInfoView.swift in Sources */,
+				7A5F1AFD270C57BB00992E07 /* AddScreen.swift in Sources */,
+				7A5F1AC9270C372200992E07 /* Client.swift in Sources */,
+				7A5F1B19270C590D00992E07 /* ClientsScreen.swift in Sources */,
+				7A5F1A99270C366F00992E07 /* ContentViewOld.swift in Sources */,
+				7A5F1AD0270C550600992E07 /* ContentView.swift in Sources */,
+				7A5F1B1E270C597500992E07 /* ShortInfoView.swift in Sources */,
+				7A5F1B26270C5A1400992E07 /* ConstantData.swift in Sources */,
+				7A5F1ACB270C52C000992E07 /* Event.swift in Sources */,
+				7A5F1AEA270C56B200992E07 /* RegistrationBackButtonView.swift in Sources */,
+				7A5F1B12270C58C300992E07 /* ClientInfoScreen.swift in Sources */,
+				7A5F1ADF270C562A00992E07 /* MainScreen.swift in Sources */,
+				7A5F1B0B270C587200992E07 /* SettingsExitButtonView.swift in Sources */,
+				7A5F1B02270C57F100992E07 /* AddNewClientScreen.swift in Sources */,
+				7ACEBFCC2714092D000BFF52 /* File.swift in Sources */,
+				7A5F1B20270C598900992E07 /* ChangeDataScreen.swift in Sources */,
+				7A5F1AD6270C558900992E07 /* LoginScreen.swift in Sources */,
+				7A5F1B1B270C592200992E07 /* ClientsListView.swift in Sources */,
+				7A5F1AF8270C577D00992E07 /* EventsCalendarScreen.swift in Sources */,
+				7A5F1B28270C5A2800992E07 /* UserViewModel.swift in Sources */,
+				7A5F1AE2270C565A00992E07 /* RegistrationScreen.swift in Sources */,
+				7A5F1AFA270C579100992E07 /* EventInfoScreen.swift in Sources */,
 				7A5F1A97270C366F00992E07 /* GuideApp.swift in Sources */,
+				7A5F1B16270C58EE00992E07 /* ClientEventsScreen.swift in Sources */,
+				7A5F1AFF270C57CF00992E07 /* AddNewButtonView.swift in Sources */,
+				7A5F1B2A270C5A4300992E07 /* UserRepository.swift in Sources */,
+				7A5F1B14270C58D800992E07 /* ClientInfoRowView.swift in Sources */,
+				7A5F1B04270C580E00992E07 /* AddNewTaskScreen.swift in Sources */,
+				7A5F1AE4270C567100992E07 /* RegistrationUserView.swift in Sources */,
+				7A5F1AF5270C575300992E07 /* TotalInfoTaskListRowView.swift in Sources */,
+				7A5F1AE6270C568700992E07 /* RegistrationTFView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
