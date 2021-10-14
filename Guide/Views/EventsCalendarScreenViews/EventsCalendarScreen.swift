@@ -28,7 +28,6 @@ struct EventsCalendarScreen<Content, T>: View where Content: View {
                     })
                     Text("Сентябрь 2021")
                     
-                    
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                         Image(systemName: "chevron.right.circle")
                     })
@@ -46,7 +45,8 @@ struct EventsCalendarScreen<Content, T>: View where Content: View {
                                             label: {
                                                 content(items[index])
                                                     .foregroundColor(.black)
-                                                    .frame(width: sideSize, height: sideSize)
+                                                    .frame(width: sideSize,
+                                                           height: sideSize)
                                                     .background(RadialGradient(gradient: Gradient(colors: [Color.blue, Color.gray]),
                                                                                center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/,
                                                                                startRadius: 1,

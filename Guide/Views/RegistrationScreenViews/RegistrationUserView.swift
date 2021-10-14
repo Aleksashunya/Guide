@@ -17,7 +17,6 @@ struct RegistrationUserView: View {
     
     var body: some View {
         Form {
-            
             RegistrationTFView(text: $userName,
                                placeholder: "Имя")
             RegistrationTFView(text: $userLastName,

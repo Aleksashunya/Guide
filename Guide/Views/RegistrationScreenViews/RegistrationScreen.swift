@@ -39,6 +39,7 @@ struct RegistrationScreen: View {
             
             HStack {
                 RegistrationBackButtonView(screen: $screen)
+                
                 Spacer()
                 
                 RegistrationNextButtonView(logIn: $logIn,
@@ -50,6 +51,7 @@ struct RegistrationScreen: View {
                                            userPassword: $userPassword,
                                            userEmail: $userEmail)
             }
+            
             Spacer()
         }
     }
@@ -57,7 +59,7 @@ struct RegistrationScreen: View {
 
 struct RegistrationScreen_Previews: PreviewProvider {
     static var previews: some View {
-        RegistrationScreen(screen: .constant(.registrationScreen), logIn: .constant(false))
+        RegistrationScreen(screen: .constant(.registrationScreen),
+                           logIn: .constant(false))
     }
 }
-

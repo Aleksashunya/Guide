@@ -57,9 +57,12 @@
 		7A5F1B28270C5A2800992E07 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B27270C5A2800992E07 /* UserViewModel.swift */; };
 		7A5F1B2A270C5A4300992E07 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B29270C5A4300992E07 /* UserRepository.swift */; };
 		7A5F1B30270C5AF500992E07 /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F1B2F270C5AF500992E07 /* UserDataManager.swift */; };
+		7A8393322717BC1C00AFB6BC /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8393312717BC1C00AFB6BC /* StorageManager.swift */; };
 		7ACEC00D27171D42000BFF52 /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEC00C27171D42000BFF52 /* Screens.swift */; };
 		7ACEC01227172508000BFF52 /* TotalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEC01127172508000BFF52 /* TotalFunctions.swift */; };
 		7ACEC01427172590000BFF52 /* ColorOfEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEC01327172590000BFF52 /* ColorOfEvent.swift */; };
+		7ACEC01627172EC0000BFF52 /* EventCalendarCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEC01527172EC0000BFF52 /* EventCalendarCollectionView.swift */; };
+		7ACEC018271731DA000BFF52 /* EventCalendarCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACEC017271731DA000BFF52 /* EventCalendarCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,9 +136,12 @@
 		7A5F1B27270C5A2800992E07 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		7A5F1B29270C5A4300992E07 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		7A5F1B2F270C5AF500992E07 /* UserDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
+		7A8393312717BC1C00AFB6BC /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		7ACEC00C27171D42000BFF52 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
 		7ACEC01127172508000BFF52 /* TotalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalFunctions.swift; sourceTree = "<group>"; };
 		7ACEC01327172590000BFF52 /* ColorOfEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOfEvent.swift; sourceTree = "<group>"; };
+		7ACEC01527172EC0000BFF52 /* EventCalendarCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCalendarCollectionView.swift; sourceTree = "<group>"; };
+		7ACEC017271731DA000BFF52 /* EventCalendarCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCalendarCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +271,7 @@
 			children = (
 				7A5F1AD2270C554800992E07 /* DataManager.swift */,
 				7A5F1B2F270C5AF500992E07 /* UserDataManager.swift */,
+				7A8393312717BC1C00AFB6BC /* StorageManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -315,6 +322,8 @@
 			children = (
 				7A5F1AF7270C577D00992E07 /* EventsCalendarScreen.swift */,
 				7A5F1AF9270C579100992E07 /* EventInfoScreen.swift */,
+				7ACEC01527172EC0000BFF52 /* EventCalendarCollectionView.swift */,
+				7ACEC017271731DA000BFF52 /* EventCalendarCellView.swift */,
 			);
 			path = EventsCalendarScreenViews;
 			sourceTree = "<group>";
@@ -523,6 +532,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A8393322717BC1C00AFB6BC /* StorageManager.swift in Sources */,
 				7A5F1AEF270C570E00992E07 /* TotalInfoScreen.swift in Sources */,
 				7A5F1B30270C5AF500992E07 /* UserDataManager.swift in Sources */,
 				7A5F1ACD270C532E00992E07 /* Task.swift in Sources */,
@@ -534,6 +544,7 @@
 				7A5F1B22270C59CB00992E07 /* User.swift in Sources */,
 				7A5F1B0F270C589E00992E07 /* SettingsUserView.swift in Sources */,
 				7A5F1B09270C585A00992E07 /* SettingsScreen.swift in Sources */,
+				7ACEC018271731DA000BFF52 /* EventCalendarCellView.swift in Sources */,
 				7A5F1B06270C582700992E07 /* AddNewEventScreen.swift in Sources */,
 				7A5F1AD8270C55AE00992E07 /* LoginButtonView.swift in Sources */,
 				7A5F1AF3270C573C00992E07 /* TotalInfoTaskListView.swift in Sources */,
@@ -570,6 +581,7 @@
 				7A5F1B04270C580E00992E07 /* AddNewTaskScreen.swift in Sources */,
 				7A5F1AE4270C567100992E07 /* RegistrationUserView.swift in Sources */,
 				7A5F1AF5270C575300992E07 /* TotalInfoTaskListRowView.swift in Sources */,
+				7ACEC01627172EC0000BFF52 /* EventCalendarCollectionView.swift in Sources */,
 				7A5F1AE6270C568700992E07 /* RegistrationTFView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,7 +25,8 @@ struct LoginScreen: View {
             
             Image("loginImage")
                 .resizable()
-                .frame(width: 250, height: 250, alignment: .center)
+                .frame(width: 250,
+                       height: 250)
             
             LoginTFView(imageName: "envelope.fill",
                         placeholder: "login",

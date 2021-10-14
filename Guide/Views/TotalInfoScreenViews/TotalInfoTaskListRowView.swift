@@ -11,12 +11,11 @@ struct TotalInfoTaskListRowView: View {
     var task: Task
     
     var body: some View {
-        
         VStack(alignment: .leading) {
             HStack {
-                
                 Text("\(task.date, style: .date)")
-                    .fixedSize(horizontal: false, vertical: true)
+                    .fixedSize(horizontal: false,
+                               vertical: true)
                     .font(.footnote)
                 
                 Spacer()
@@ -26,7 +25,8 @@ struct TotalInfoTaskListRowView: View {
             }
             
             Text("\(task.name)")
-                .fixedSize(horizontal: false, vertical: true)
+                .fixedSize(horizontal: false,
+                           vertical: true)
                 .foregroundColor(.blue)
             
             HStack {
@@ -34,9 +34,6 @@ struct TotalInfoTaskListRowView: View {
                     .foregroundColor(.gray)
                 Text("\(currentUser.clients?[0].fullName ?? "")")
             }
-            
-            
-           
         }
     }
 }

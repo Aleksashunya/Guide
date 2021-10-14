@@ -11,12 +11,12 @@ struct TotalInfoScreen: View {
     
     var body: some View {
         NavigationView {
-            
             VStack {
                 TotalInfoView()
                 
                 TotalInfoTaskListView()
-            }.navigationBarTitle(Text("Сводная информация"), displayMode: .inline)
+            }.navigationBarTitle(Text("Сводная информация"),
+                                 displayMode: .inline)
         }
     }
 }

@@ -11,7 +11,6 @@ struct EventInfoScreen: View {
     
     @State private var meaning = ""
     var body: some View {
-        
             
             Form {
                 

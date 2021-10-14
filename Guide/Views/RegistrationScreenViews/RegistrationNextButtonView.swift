@@ -21,10 +21,8 @@ struct RegistrationNextButtonView: View {
     @State private var showAlert = false
     
     var body: some View {
-        
         Button(action: {
             checkUserData()
-            
         }, label: {
             Text("Зарегистрироваться")
         })

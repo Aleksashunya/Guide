@@ -22,6 +22,7 @@ struct LoginButtonView: View {
             if showAlert == false {
                 DataManager.shared.saveLoginStatus(with: true)
                 logIn = true
+//                StorageManager.shared.clearAll()
             }
             }, label: {
             Text("Войти")
